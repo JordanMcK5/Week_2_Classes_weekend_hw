@@ -19,7 +19,7 @@ class Room:
             return
         self.guest.append(customer_to_enter)
         if self.guest_count() > self.capacity:
-            print ("Not tonight, mate")
+            print ("Not tonight, pal")
 
     def check_out(self, customer_to_leave):
         self.guest.remove(customer_to_leave)
